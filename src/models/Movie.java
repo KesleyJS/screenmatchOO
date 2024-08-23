@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.models;
+package models;
 
 public class Movie {
     String name;
