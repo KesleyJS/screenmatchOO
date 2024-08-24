@@ -49,11 +49,11 @@ public class Title {
     }
 
     public void showInfo() {
-        System.out.println("Nome do filme: " + name);
+        System.out.println("Nome " + name);
         System.out.println("Ano de lançamento: " + releaseYear);
         System.out.println("Incluso no plano: " + includedPlan);
         System.out.println("Nota: " + ratingSum);
-        System.out.println("Duração do filme: " + durationMinutes + "min");
+        System.out.println("Duração: " + durationMinutes + "min");
         System.out.println("Total de avaliações: " + quantityRating);
     }
 
