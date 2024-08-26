@@ -1,6 +1,8 @@
 package br.com.screenmatch.models;
 
-public class Serie extends Title {
+import br.com.screenmatch.calculation.Rating;
+
+public class Serie extends Title implements Rating {
 
     int seasons;
     int episodesSeason;
@@ -42,5 +44,10 @@ public class Serie extends Title {
     @Override
     public int getDurationMinutes() {
         return seasons * episodesSeason * minutesEpisode;
+    }
+
+    @Override
+    public int getRating() {
+        return 0;
     }
 }

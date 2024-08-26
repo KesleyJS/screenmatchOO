@@ -10,6 +10,7 @@ public class TimeCalculator {
     }
 
     public void include(Title title) {
+        System.out.println("Adicionando Duração em minutos de " + title.getName());
         totalTime += title.getDurationMinutes();
     }
 }

@@ -1,4 +1,6 @@
+import br.com.screenmatch.calculation.RecommendationFilter;
 import br.com.screenmatch.calculation.TimeCalculator;
+import br.com.screenmatch.models.Episode;
 import br.com.screenmatch.models.Movie;
 import br.com.screenmatch.models.Serie;
 
@@ -37,5 +39,14 @@ public class Main {
         calculator.include(movie1);
         calculator.include(serie);
         System.out.println(calculator.getTotalTime());
+
+        RecommendationFilter filter = new RecommendationFilter();
+        filter.filter(movie);
+
+        Episode episode = new Episode();
+        episode.setNumber(1);
+        episode.setSerie(serie);
+        episode.setTotalViews(300);
+        filter.filter(episode);
     }
 }
