@@ -1,5 +1,6 @@
-import models.Movie;
-import models.Serie;
+import br.com.screenmatch.calculation.TimeCalculator;
+import br.com.screenmatch.models.Movie;
+import br.com.screenmatch.models.Serie;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -25,5 +26,16 @@ public class Main {
         serie.setMinutesEpisode(50);
         System.out.println("Tempo necessário para assistir a série: " + serie.getDurationMinutes());
         serie.showInfo();
+
+        Movie movie1 = new Movie();
+        movie1.setName("Avatar");
+        movie1.setReleaseYear(2023);
+        movie1.setDurationMinutes(180);
+
+        TimeCalculator calculator = new TimeCalculator();
+        calculator.include(movie);
+        calculator.include(movie1);
+        calculator.include(serie);
+        System.out.println(calculator.getTotalTime());
     }
 }
