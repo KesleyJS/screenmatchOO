@@ -9,6 +9,10 @@ public class Serie extends Title implements Rating {
     boolean active;
     int minutesEpisode;
 
+    public Serie(String name, int releaseDate) {
+        super(name, releaseDate);
+    }
+
     public int getSeasons() {
         return seasons;
     }

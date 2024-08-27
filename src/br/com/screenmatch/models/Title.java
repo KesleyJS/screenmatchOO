@@ -2,11 +2,16 @@ package br.com.screenmatch.models;
 
 public class Title {
     String name;
-    int releaseYear;
+    int releaseDate;
     boolean includedPlan;
     double ratingSum;
     int quantityRating;
     int durationMinutes;
+
+    public Title(String name, int releaseDate) {
+        this.name = name;
+        this.releaseDate = releaseDate;
+    }
 
     public String getName() {
         return name;
@@ -24,12 +29,12 @@ public class Title {
         return includedPlan;
     }
 
-    public int getReleaseYear() {
-        return releaseYear;
+    public int getReleaseDate() {
+        return releaseDate;
     }
 
-    public void setReleaseYear(int releaseYear) {
-        this.releaseYear = releaseYear;
+    public void setReleaseDate(int releaseDate) {
+        this.releaseDate = releaseDate;
     }
 
     public void setIncludedPlan(boolean includedPlan) {
@@ -50,7 +55,7 @@ public class Title {
 
     public void showInfo() {
         System.out.println("Nome " + name);
-        System.out.println("Ano de lançamento: " + releaseYear);
+        System.out.println("Ano de lançamento: " + releaseDate);
         System.out.println("Incluso no plano: " + includedPlan);
         System.out.println("Nota: " + ratingSum);
         System.out.println("Duração: " + durationMinutes + "min");
