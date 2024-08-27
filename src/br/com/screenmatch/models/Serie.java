@@ -2,12 +2,16 @@ package br.com.screenmatch.models;
 
 import br.com.screenmatch.calculation.Rating;
 
-public class Serie extends Title implements Rating {
+public class Serie extends Title {
 
     int seasons;
     int episodesSeason;
     boolean active;
     int minutesEpisode;
+
+    public Serie(String name, int releaseDate) {
+        super(name, releaseDate);
+    }
 
     public int getSeasons() {
         return seasons;
@@ -47,7 +51,7 @@ public class Serie extends Title implements Rating {
     }
 
     @Override
-    public int getRating() {
-        return 0;
+    public String toString() {
+        return "Série: " +  this.getName() + " (" + this.getReleaseDate() + ")";
     }
 }
