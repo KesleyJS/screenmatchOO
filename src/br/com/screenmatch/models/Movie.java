@@ -24,6 +24,6 @@ public class Movie extends Title implements Rating {
 
     @Override
     public String toString() {
-        return "Filme: " + this.getName() + " ( " + this.getReleaseDate() + " )";
+        return "Filme: " + this.getName() + " (" + this.getReleaseDate() + ")";
     }
 }
