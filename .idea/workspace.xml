@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7ce351f-500c-48d9-8af1-6688c43e71c1" name="Changes" comment="constructors">
+    <list default="true" id="f7ce351f-500c-48d9-8af1-6688c43e71c1" name="Changes" comment="lists">
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/exception/ConvertionErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/main/MainGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/models/TitleOmdb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/main/MainLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/main/MainLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenmatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/models/Episode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/models/Episode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/models/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/models/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/models/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/models/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/models/Title.java" afterDir="false" />
@@ -20,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -54,16 +58,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.MainGet.executor": "Run",
     "Application.MainLists.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Curso Java/screenmatch",
+    "last_opened_file_path": "C:/Users/Kesley/Downloads/gson-2.11.0.jar",
     "onboarding.tips.debug.path": "E:/Curso Java/screenmatch/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.screenmatch.exception" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -137,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724769259512</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lists">
+      <option name="closed" value="true" />
+      <created>1724781534521</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724781534521</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +179,7 @@
     <MESSAGE value="Calculate time to watch the titles" />
     <MESSAGE value="Interfaces" />
     <MESSAGE value="constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="constructors" />
+    <MESSAGE value="lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="lists" />
   </component>
 </project>
